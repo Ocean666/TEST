@@ -15,6 +15,8 @@
 		0C0C00491CEC1CC300076BE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C0C00471CEC1CC300076BE4 /* LaunchScreen.storyboard */; };
 		0C0C00541CEC1CC300076BE4 /* Our_WeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C00531CEC1CC300076BE4 /* Our_WeatherTests.m */; };
 		0C0C005F1CEC1CC300076BE4 /* Our_WeatherUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C005E1CEC1CC300076BE4 /* Our_WeatherUITests.m */; };
+		0C919DC31CECB1DE00F37E44 /* GSIndexDetailVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C919DC11CECB1DE00F37E44 /* GSIndexDetailVCViewController.m */; };
+		0C919DC41CECB1DE00F37E44 /* GSIndexDetailVCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C919DC21CECB1DE00F37E44 /* GSIndexDetailVCViewController.xib */; };
 		0CF2F08F1CEC51E5003CAEE9 /* GSWeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF2F08D1CEC51E5003CAEE9 /* GSWeatherViewController.m */; };
 		0CF2F0901CEC51E5003CAEE9 /* GSWeatherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CF2F08E1CEC51E5003CAEE9 /* GSWeatherViewController.xib */; };
 		0CF2F0931CEC597D003CAEE9 /* GSHTTPRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF2F0921CEC597D003CAEE9 /* GSHTTPRequestManager.m */; };
@@ -61,6 +63,9 @@
 		0C0C005A1CEC1CC300076BE4 /* Our WeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Our WeatherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C0C005E1CEC1CC300076BE4 /* Our_WeatherUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Our_WeatherUITests.m; sourceTree = "<group>"; };
 		0C0C00601CEC1CC300076BE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C919DC01CECB1DE00F37E44 /* GSIndexDetailVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSIndexDetailVCViewController.h; sourceTree = "<group>"; };
+		0C919DC11CECB1DE00F37E44 /* GSIndexDetailVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSIndexDetailVCViewController.m; sourceTree = "<group>"; };
+		0C919DC21CECB1DE00F37E44 /* GSIndexDetailVCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSIndexDetailVCViewController.xib; sourceTree = "<group>"; };
 		0CF2F08C1CEC51E5003CAEE9 /* GSWeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWeatherViewController.h; sourceTree = "<group>"; };
 		0CF2F08D1CEC51E5003CAEE9 /* GSWeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSWeatherViewController.m; sourceTree = "<group>"; };
 		0CF2F08E1CEC51E5003CAEE9 /* GSWeatherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSWeatherViewController.xib; sourceTree = "<group>"; };
@@ -135,10 +140,6 @@
 				0C0C003F1CEC1CC300076BE4 /* ViewController.h */,
 				0C0C00401CEC1CC300076BE4 /* ViewController.m */,
 				0C0C00421CEC1CC300076BE4 /* Main.storyboard */,
-				0C0C00451CEC1CC300076BE4 /* Assets.xcassets */,
-				0C0C00471CEC1CC300076BE4 /* LaunchScreen.storyboard */,
-				0C0C004A1CEC1CC300076BE4 /* Info.plist */,
-				0C0C00391CEC1CC300076BE4 /* Supporting Files */,
 				0CF2F08C1CEC51E5003CAEE9 /* GSWeatherViewController.h */,
 				0CF2F08D1CEC51E5003CAEE9 /* GSWeatherViewController.m */,
 				0CF2F08E1CEC51E5003CAEE9 /* GSWeatherViewController.xib */,
@@ -158,6 +159,13 @@
 				0CF2F0AD1CEC741C003CAEE9 /* GSDateTableViewCell.h */,
 				0CF2F0AE1CEC741C003CAEE9 /* GSDateTableViewCell.m */,
 				0CF2F0AF1CEC741C003CAEE9 /* GSDateTableViewCell.xib */,
+				0C0C00471CEC1CC300076BE4 /* LaunchScreen.storyboard */,
+				0C0C00451CEC1CC300076BE4 /* Assets.xcassets */,
+				0C0C004A1CEC1CC300076BE4 /* Info.plist */,
+				0C0C00391CEC1CC300076BE4 /* Supporting Files */,
+				0C919DC01CECB1DE00F37E44 /* GSIndexDetailVCViewController.h */,
+				0C919DC11CECB1DE00F37E44 /* GSIndexDetailVCViewController.m */,
+				0C919DC21CECB1DE00F37E44 /* GSIndexDetailVCViewController.xib */,
 			);
 			path = "Our Weather";
 			sourceTree = "<group>";
@@ -295,6 +303,7 @@
 				0C0C00491CEC1CC300076BE4 /* LaunchScreen.storyboard in Resources */,
 				0CF2F0901CEC51E5003CAEE9 /* GSWeatherViewController.xib in Resources */,
 				0CF2F0B11CEC741C003CAEE9 /* GSDateTableViewCell.xib in Resources */,
+				0C919DC41CECB1DE00F37E44 /* GSIndexDetailVCViewController.xib in Resources */,
 				0C0C00461CEC1CC300076BE4 /* Assets.xcassets in Resources */,
 				0C0C00441CEC1CC300076BE4 /* Main.storyboard in Resources */,
 			);
@@ -324,6 +333,7 @@
 				0CF2F0931CEC597D003CAEE9 /* GSHTTPRequestManager.m in Sources */,
 				0C0C00411CEC1CC300076BE4 /* ViewController.m in Sources */,
 				0CF2F08F1CEC51E5003CAEE9 /* GSWeatherViewController.m in Sources */,
+				0C919DC31CECB1DE00F37E44 /* GSIndexDetailVCViewController.m in Sources */,
 				0CF2F0A31CEC6363003CAEE9 /* GSDateModel.m in Sources */,
 				0C0C003E1CEC1CC300076BE4 /* AppDelegate.m in Sources */,
 				0CF2F0961CEC5A7B003CAEE9 /* ZHParserManager.m in Sources */,

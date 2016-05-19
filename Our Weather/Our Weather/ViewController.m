@@ -21,9 +21,6 @@
         UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"温馨提示" message:@"请输入需要查询的地区!!!" preferredStyle:  UIAlertControllerStyleAlert];
         
         [alert addAction:[UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-            //点击按钮的响应事件；
-            //            ZHWeatherViewController *weatherVC = [[ZHWeatherViewController alloc]init];
-            //            [self presentViewController:weatherVC animated:YES completion:nil];
             [self dismissViewControllerAnimated:YES completion:nil];
         }]];
         
@@ -32,8 +29,9 @@
     }
     
     GSWeatherViewController *vc = [[GSWeatherViewController alloc]init];
-    vc.recordStr = _locationTF.text;
+    vc.recordStr = self.locationTF.text;
     [self presentViewController:vc animated:YES completion:nil];
+    self.locationTF.text = @"";
 
 }
 

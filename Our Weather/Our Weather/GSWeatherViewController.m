@@ -15,6 +15,7 @@
 #import "GSDateModel.h"
 #import "GSIndexModel.h"
 #import "GSDateTableViewCell.h"
+#import "GSIndexDetailVCViewController.h"
 
 @interface GSWeatherViewController ()
 {
@@ -43,9 +44,10 @@
         NSDictionary *dict = [parser JsonParserWith:data];
         GSMainModel *mainModel = [[GSMainModel alloc]initWithDictionary:dict];
         if ([mainModel.status isEqualToString:@"NO result available"]) {
-            UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"温馨提示" message:@"抱歉，你输入的城市查询不到" delegate:nil cancelButtonTitle:@"取消" otherButtonTitles:@"确定", nil];
             
-            [alertView show];
+            UIAlertController *conteoller = [UIAlertController alertControllerWithTitle:@"温馨提示" message:@"抱歉，你输入的城市查询不到" preferredStyle:UIAlertControllerStyleAlert];
+            UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"Phew" style:UIAlertActionStyleCancel handler:nil];
+            [conteoller addAction:cancelAction];
             return ;
         }
         //传值的时候注意Block的调用  要在调用之后创建表 然后才可以接受到数据
@@ -160,6 +162,7 @@
         dateTVCell.weekLabel.text = date.date;
         dateTVCell.windLabel.text = date.wind;
         dateTVCell.temLabel.text = date.temperature;
+        NSLog(@"%@",date.temperature);
         dateTVCell.dayImageView.image = [self getImageWithUrlString:date.dayPictureUrl];
         dateTVCell.nightImageView.image = [self getImageWithUrlString:date.nightPictureUrl];
         dateTVCell.backgroundColor = [UIColor clearColor];
@@ -176,6 +179,14 @@
     return image;
 }
 
+-(void)btnClick:(id)sender
+{
+    UIButton *button = (UIButton *)sender;
+    GSIndexModel *indexModel = indexArray[button.tag -10];
+    GSIndexDetailVCViewController *indexDetailVC = [[GSIndexDetailVCViewController alloc]init];
+    indexDetailVC.string = indexModel.des;
+    [self presentViewController:indexDetailVC animated:YES completion:nil];
+}
 
 - (IBAction)backBtnClick:(UIButton *)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
