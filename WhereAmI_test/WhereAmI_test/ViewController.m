@@ -12,8 +12,10 @@
 
 @interface ViewController () <CLLocationManagerDelegate>
 @property (strong, nonatomic) CLLocationManager *locationManager;
+//记录最后一次更新是从位置器接受位置，这样每当用户移动足够触发更新的一段距离，我们就能将最后移动添加到距离中
 @property (strong, nonatomic) CLLocation *previousPoint;
 @property (assign, nonatomic) CLLocationDistance totalMovementDistance;
+
 @property (weak, nonatomic) IBOutlet UILabel *latitudeLabel;
 @property (weak, nonatomic) IBOutlet UILabel *longitudeLabel;
 @property (weak, nonatomic) IBOutlet UILabel *horizontalAccuracyLabel;
@@ -29,7 +31,9 @@
     [super viewDidLoad];
     self.locationManager = [[CLLocationManager alloc] init];
     self.locationManager.delegate = self;
+    //设置精确度最佳
     self.locationManager.desiredAccuracy = kCLLocationAccuracyBest;
+    //请求任意时间使用Core Location的权限
     [self.locationManager requestWhenInUseAuthorization];
 
 }
