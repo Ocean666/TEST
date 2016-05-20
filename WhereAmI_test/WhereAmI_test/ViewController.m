@@ -44,11 +44,15 @@
     NSLog(@"Authorization status changed to %d",status);
     switch (status) {
         case kCLAuthorizationStatusAuthorizedAlways:
-            
             break;
-            case <#expression#>:
+        case kCLAuthorizationStatusAuthorizedWhenInUse:
+            [self.locationManager startUpdatingLocation];
+            break;
+        case kCLAuthorizationStatusNotDetermined:
+        case kCLAuthorizationStatusRestricted:
             
-        default:
+        case kCLAuthorizationStatusDenied:
+            [self.locationManager stopUpdatingLocation];
             break;
     }
 }

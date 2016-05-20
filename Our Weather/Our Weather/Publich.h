@@ -1,10 +1,8 @@
 //
 //  Publich.h
-//  weatherForecast
-//
-//  Created by 撰谦·你我他 on 16/3/31.
-//  Copyright © 2016年 zhangliuxian. All rights reserved.
-//
+//  Our Weather
+//  Created by geshu on 16/5/18.
+//  Copyright © 2016年 personage. All rights reserved.
 
 #ifndef aoyouHH_Public_h
 #define aoyouHH_Public_h
