@@ -55,6 +55,7 @@
         dateArray = mainModel.dateArray;
         mainArray = mainModel.mainArray;
         UITableView *myTableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 20, screen_width, screen_height) style:UITableViewStylePlain];
+        
         myTableView.delegate = self;
         myTableView.dataSource = self;
         myTableView.backgroundColor = [UIColor clearColor];

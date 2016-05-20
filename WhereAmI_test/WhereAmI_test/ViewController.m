@@ -35,7 +35,22 @@
     self.locationManager.desiredAccuracy = kCLLocationAccuracyBest;
     //请求任意时间使用Core Location的权限
     [self.locationManager requestWhenInUseAuthorization];
+    
 
+}
+
+- (void)locationManager:(CLLocationManager *)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status
+{
+    NSLog(@"Authorization status changed to %d",status);
+    switch (status) {
+        case kCLAuthorizationStatusAuthorizedAlways:
+            
+            break;
+            case <#expression#>:
+            
+        default:
+            break;
+    }
 }
 
 - (void)didReceiveMemoryWarning {
