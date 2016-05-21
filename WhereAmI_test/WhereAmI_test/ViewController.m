@@ -39,12 +39,13 @@
 
 }
 
+#pragma mark - CLLocationDelegate Methods
+
 - (void)locationManager:(CLLocationManager *)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status
 {
     NSLog(@"Authorization status changed to %d",status);
     switch (status) {
         case kCLAuthorizationStatusAuthorizedAlways:
-            break;
         case kCLAuthorizationStatusAuthorizedWhenInUse:
             [self.locationManager startUpdatingLocation];
             break;
@@ -56,6 +57,33 @@
             break;
     }
 }
+
+- (void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error
+{
+    NSString *errorType = error.code == kCLErrorDenied ? @"Access Denied" : [NSString stringWithFormat:@"Error %ld", (long)error.code, nil];;
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"Location Manager Error" message:errorType preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleCancel handler:nil];
+    [alertController addAction:okAction];
+    [self presentViewController:alertController animated:YES completion:nil];
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

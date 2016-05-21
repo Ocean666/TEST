@@ -14,10 +14,15 @@
     
     mutableData = [[NSMutableData alloc]init];
     NSString *urlStr = [NSString stringWithFormat:@"http://api.map.baidu.com/telematics/v3/weather?location=%@&output=json&ak=OnMGDYzjfKFPzurnK9o4ui2a",location];
-    NSString *newStr = [urlStr stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-    NSURL *url = [NSURL URLWithString:newStr];
+//    NSString *newStr = [urlStr stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    NSString *newStr2 = [urlStr stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
+    NSURL *url = [NSURL URLWithString:newStr2];
+     // 1.创建请求对象
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     [NSURLConnection connectionWithRequest:request delegate:self];
+        
+   
+    
     
 }
 -(void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data{

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C3E27AB1CF04CA6003338A8 /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3E27AA1CF04CA6003338A8 /* Place.m */; };
 		0CD8C18E1CEDF7B900A4AB95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD8C18D1CEDF7B900A4AB95 /* main.m */; };
 		0CD8C1911CEDF7B900A4AB95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD8C1901CEDF7B900A4AB95 /* AppDelegate.m */; };
 		0CD8C1941CEDF7B900A4AB95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD8C1931CEDF7B900A4AB95 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C3E27A91CF04CA6003338A8 /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
+		0C3E27AA1CF04CA6003338A8 /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Place.m; sourceTree = "<group>"; };
 		0CD8C1891CEDF7B900A4AB95 /* WhereAmI_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhereAmI_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CD8C18D1CEDF7B900A4AB95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CD8C18F1CEDF7B900A4AB95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				0CD8C19A1CEDF7B900A4AB95 /* LaunchScreen.storyboard */,
 				0CD8C19D1CEDF7B900A4AB95 /* Info.plist */,
 				0CD8C18C1CEDF7B900A4AB95 /* Supporting Files */,
+				0C3E27A91CF04CA6003338A8 /* Place.h */,
+				0C3E27AA1CF04CA6003338A8 /* Place.m */,
 			);
 			path = WhereAmI_test;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 				0CD8C1941CEDF7B900A4AB95 /* ViewController.m in Sources */,
 				0CD8C1911CEDF7B900A4AB95 /* AppDelegate.m in Sources */,
 				0CD8C18E1CEDF7B900A4AB95 /* main.m in Sources */,
+				0C3E27AB1CF04CA6003338A8 /* Place.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,6 +496,7 @@
 				0CD8C1B81CEDF7B900A4AB95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CD8C1B91CEDF7B900A4AB95 /* Build configuration list for PBXNativeTarget "WhereAmI_testTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +505,7 @@
 				0CD8C1BB1CEDF7B900A4AB95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CD8C1BC1CEDF7B900A4AB95 /* Build configuration list for PBXNativeTarget "WhereAmI_testUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +514,7 @@
 				0CD8C1BE1CEDF7B900A4AB95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

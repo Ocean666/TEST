@@ -17,7 +17,7 @@
 #import "GSDateTableViewCell.h"
 #import "GSIndexDetailVCViewController.h"
 
-@interface GSWeatherViewController ()
+@interface GSWeatherViewController () <UITableViewDelegate,UITableViewDataSource>
 {
         NSMutableArray *indexArray;
         NSMutableArray *dateArray;
@@ -62,7 +62,7 @@
         indexArray = mainModel.indexArray;
         dateArray = mainModel.dateArray;
         mainArray = mainModel.mainArray;
-        UITableView *myTableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 20, screen_width, screen_height) style:UITableViewStylePlain];
+       UITableView *myTableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 20, screen_width, screen_height) style:UITableViewStylePlain];
         
         myTableView.delegate = self;
         myTableView.dataSource = self;
@@ -126,7 +126,8 @@
             cell.textLabel.textColor = [UIColor cyanColor];
             cell.textLabel.textAlignment = NSTextAlignmentCenter;
         }else{
-             GSDateModel *date = dateArray[0];
+            
+            GSDateModel *date = dateArray[0];
             cell.textLabel.text = date.date;
             cell.textLabel.textColor = [UIColor colorWithRed:248/255.0f green:144/255.0f blue:34/255.0f alpha:1];
             cell.textLabel.textAlignment = NSTextAlignmentCenter;
