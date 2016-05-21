@@ -8,7 +8,7 @@
 
 #import "GSWeatherViewController.h"
 #import "GSHTTPRequestManager.h"
-#import "ZHParserManager.h"
+#import "GSParserManager.h"
 #import "GSMainModel.h"
 #import "GSWeatherModel.h"
 #import "Publich.h"
@@ -37,18 +37,26 @@
     mutableArray = [[NSMutableArray alloc]init];
     GSHTTPRequestManager *httpRequest = [[GSHTTPRequestManager alloc]init];
     [httpRequest sendRWquestLocation:_recordStr];
-    ZHParserManager *parser = [[ZHParserManager alloc]init];
+    GSParserManager *parser = [[GSParserManager alloc]init];
     __block GSWeatherViewController *wVC = self;
     httpRequest.myBlock = ^(NSData *data)
     {
         NSDictionary *dict = [parser JsonParserWith:data];
         GSMainModel *mainModel = [[GSMainModel alloc]initWithDictionary:dict];
-        if ([mainModel.status isEqualToString:@"NO result available"]) {
+        if (![mainModel.status isEqualToString:@"success"]) {
             
-            UIAlertController *conteoller = [UIAlertController alertControllerWithTitle:@"温馨提示" message:@"抱歉，你输入的城市查询不到" preferredStyle:UIAlertControllerStyleAlert];
-            UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"Phew" style:UIAlertActionStyleCancel handler:nil];
-            [conteoller addAction:cancelAction];
-            return ;
+//            UIAlertController *conteoller = [UIAlertController alertControllerWithTitle:@"温馨提示" message:@"抱歉，你输入的城市查询不到" preferredStyle:UIAlertControllerStyleAlert];
+//            UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"Phew" style:UIAlertActionStyleCancel handler:nil];
+//            [conteoller addAction:cancelAction];
+//            return ;
+            UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"温馨提示" message:@"请输入需要查询的地区!!!" preferredStyle:  UIAlertControllerStyleAlert];
+            
+            [alert addAction:[UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+                [self dismissViewControllerAnimated:YES completion:nil];
+            }]];
+            
+            //弹出提示框；
+            [self presentViewController:alert animated:true completion:nil];
         }
         //传值的时候注意Block的调用  要在调用之后创建表 然后才可以接受到数据
         indexArray = mainModel.indexArray;

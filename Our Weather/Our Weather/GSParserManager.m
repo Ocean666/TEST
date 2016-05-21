@@ -6,9 +6,9 @@
 //  Copyright © 2016年 personage. All rights reserved.
 //
 
-#import "ZHParserManager.h"
+#import "GSParserManager.h"
 
-@implementation ZHParserManager
+@implementation GSParserManager : NSObject 
 
 -(id)JsonParserWith:(NSData *)data{
     NSError *error = nil;

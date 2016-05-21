@@ -15,7 +15,7 @@
 		0C0C00491CEC1CC300076BE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C0C00471CEC1CC300076BE4 /* LaunchScreen.storyboard */; };
 		0C0C00541CEC1CC300076BE4 /* Our_WeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C00531CEC1CC300076BE4 /* Our_WeatherTests.m */; };
 		0C0C005F1CEC1CC300076BE4 /* Our_WeatherUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C005E1CEC1CC300076BE4 /* Our_WeatherUITests.m */; };
-		0C8272831CEEBBBC00552D2C /* ZHParserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8272821CEEBBBC00552D2C /* ZHParserManager.m */; };
+		0C8272831CEEBBBC00552D2C /* GSParserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8272821CEEBBBC00552D2C /* GSParserManager.m */; };
 		0C919DC31CECB1DE00F37E44 /* GSIndexDetailVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C919DC11CECB1DE00F37E44 /* GSIndexDetailVCViewController.m */; };
 		0C919DC41CECB1DE00F37E44 /* GSIndexDetailVCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C919DC21CECB1DE00F37E44 /* GSIndexDetailVCViewController.xib */; };
 		0CF2F08F1CEC51E5003CAEE9 /* GSWeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF2F08D1CEC51E5003CAEE9 /* GSWeatherViewController.m */; };
@@ -63,8 +63,8 @@
 		0C0C005A1CEC1CC300076BE4 /* Our WeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Our WeatherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C0C005E1CEC1CC300076BE4 /* Our_WeatherUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Our_WeatherUITests.m; sourceTree = "<group>"; };
 		0C0C00601CEC1CC300076BE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C8272811CEEBBBC00552D2C /* ZHParserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHParserManager.h; sourceTree = "<group>"; };
-		0C8272821CEEBBBC00552D2C /* ZHParserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHParserManager.m; sourceTree = "<group>"; };
+		0C8272811CEEBBBC00552D2C /* GSParserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSParserManager.h; sourceTree = "<group>"; };
+		0C8272821CEEBBBC00552D2C /* GSParserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSParserManager.m; sourceTree = "<group>"; };
 		0C8272841CEEBBD400552D2C /* Publich.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Publich.h; sourceTree = "<group>"; };
 		0C919DC01CECB1DE00F37E44 /* GSIndexDetailVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSIndexDetailVCViewController.h; sourceTree = "<group>"; };
 		0C919DC11CECB1DE00F37E44 /* GSIndexDetailVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSIndexDetailVCViewController.m; sourceTree = "<group>"; };
@@ -145,8 +145,8 @@
 				0CF2F08E1CEC51E5003CAEE9 /* GSWeatherViewController.xib */,
 				0CF2F0911CEC597D003CAEE9 /* GSHTTPRequestManager.h */,
 				0CF2F0921CEC597D003CAEE9 /* GSHTTPRequestManager.m */,
-				0C8272811CEEBBBC00552D2C /* ZHParserManager.h */,
-				0C8272821CEEBBBC00552D2C /* ZHParserManager.m */,
+				0C8272811CEEBBBC00552D2C /* GSParserManager.h */,
+				0C8272821CEEBBBC00552D2C /* GSParserManager.m */,
 				0CF2F0971CEC5B63003CAEE9 /* GSMainModel.h */,
 				0CF2F0981CEC5B63003CAEE9 /* GSMainModel.m */,
 				0CF2F09A1CEC5BC9003CAEE9 /* GSWeatherModel.h */,
@@ -339,7 +339,7 @@
 				0C0C003B1CEC1CC300076BE4 /* main.m in Sources */,
 				0CF2F09C1CEC5BC9003CAEE9 /* GSWeatherModel.m in Sources */,
 				0CF2F0B01CEC741C003CAEE9 /* GSDateTableViewCell.m in Sources */,
-				0C8272831CEEBBBC00552D2C /* ZHParserManager.m in Sources */,
+				0C8272831CEEBBBC00552D2C /* GSParserManager.m in Sources */,
 				0CF2F0A01CEC6185003CAEE9 /* GSIndexModel.m in Sources */,
 				0CF2F0991CEC5B63003CAEE9 /* GSMainModel.m in Sources */,
 			);

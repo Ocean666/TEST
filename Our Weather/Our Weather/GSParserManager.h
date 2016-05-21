@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ZHParserManager : NSObject
+@interface GSParserManager : NSObject
 -(id)JsonParserWith:(NSData *)data;
 @end
