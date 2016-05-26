@@ -10,7 +10,7 @@
 const CGFloat kRatio = 0.4;
 
 @interface LMTabbar ()
-@property (nonatomic, strong) TabbarBt *selectItem;
+@property (nonatomic, weak) TabbarBt *selectedItem;
 
 @end
 @implementation LMTabbar
@@ -35,14 +35,21 @@ const CGFloat kRatio = 0.4;
     [item setImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
     [item setBackgroundImage:[UIImage imageNamed:@"tabbar_separate_selected_bg"] forState:UIControlStateSelected];
     [item addTarget:self action:@selector(btClick:) forControlEvents:UIControlEventTouchDown];
+    item.tag = self.subviews.count;
     [self addSubview:item];
 }
 
 - (void)btClick:(TabbarBt *)bt
 {
-    self.selectItem.selected = NO;
-    self.selectItem = bt;
-    self.selectItem.selected = YES;
+    // 通知代理
+    if([self.delegate respondsToSelector:@selector(tabbar:fromIndex:toIndex:)]) {
+        [self.delegate tabbar:self fromIndex:self.selectedItem.tag toIndex:bt.tag];
+    }
+    
+    self.selectedItem.selected = NO;
+    self.selectedItem = bt;
+    self.selectedItem.selected = YES;
+    
 }
 
 - (void)rotateToLandscape:(BOOL)isLandscape
@@ -60,7 +67,26 @@ const CGFloat kRatio = 0.4;
     }
 }
 
+#pragma mark - 让SelectItem变成不选中
+- (void)unSelected{
+    self.selectedItem.selected = NO;
+}
+
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @implementation TabbarBt
 
 - (instancetype)initWithFrame:(CGRect)frame
@@ -100,6 +126,8 @@ const CGFloat kRatio = 0.4;
         return CGRectMake(x, y, width, height);
     }
 }
+
+
 @end
 
 

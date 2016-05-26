@@ -8,11 +8,26 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LMTabbar : UIView
-- (void)rotateToLandscape:(BOOL)isLandscape;
+@class LMTabbar;
+@class TabbarBt;
+
+@protocol TabbarDelegate <NSObject>
+
+@optional
+- (void)tabbar:(LMTabbar *)tabbar fromIndex:(NSInteger)from toIndex:(NSInteger)to;
+
 @end
 
 
+
+@interface LMTabbar : UIView
+//@property (nonatomic, strong) TabbarBt *selectedItem;
+@property (nonatomic, weak) id<TabbarDelegate> delegate;
+
+- (void)rotateToLandscape:(BOOL)isLandscape;
+// 让SelectItem变成不选中
+- (void)unSelected;
+@end
 
 
 @interface TabbarBt : UIButton

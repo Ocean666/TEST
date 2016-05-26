@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  LMFrame
+//  PopoverController_test
 //
-//  Created by geshu on 16/5/24.
+//  Created by geshu on 16/5/26.
 //  Copyright © 2016年 personage. All rights reserved.
 //
 
@@ -17,9 +17,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    //更改状态栏属性，如亮度（如果是所有的界面状态需要在info设置）
-    [application setStatusBarStyle:UIStatusBarStyleLightContent];
-   // [application preferredStatusBarStyle];
     return YES;
 }
 

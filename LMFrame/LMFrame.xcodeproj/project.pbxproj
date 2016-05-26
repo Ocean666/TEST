@@ -10,6 +10,8 @@
 		0C58359E1CF4B0990096B850 /* UIImage+Fit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C58359B1CF4B0990096B850 /* UIImage+Fit.m */; };
 		0C58359F1CF4B0990096B850 /* UIView+AdjustFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C58359D1CF4B0990096B850 /* UIView+AdjustFrame.m */; };
 		0C768B5C1CF5828800B8BB95 /* LMIconButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C768B5B1CF5828800B8BB95 /* LMIconButton.m */; };
+		0C8709D21CF6C0AC004EEF4A /* LMMoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8709D11CF6C0AC004EEF4A /* LMMoodViewController.m */; };
+		0C8709D51CF6F176004EEF4A /* AllStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8709D41CF6F176004EEF4A /* AllStatusViewController.m */; };
 		0C8B12731CF556DF00C841A4 /* LMConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8B12721CF556DF00C841A4 /* LMConst.m */; };
 		0C8B12761CF55CF700C841A4 /* LMBottomMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8B12751CF55CF700C841A4 /* LMBottomMenu.m */; };
 		0C8B12791CF568AF00C841A4 /* LMTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8B12781CF568AF00C841A4 /* LMTabbar.m */; };
@@ -50,6 +52,10 @@
 		0C5835A11CF4B6140096B850 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		0C768B5A1CF5828800B8BB95 /* LMIconButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMIconButton.h; sourceTree = "<group>"; };
 		0C768B5B1CF5828800B8BB95 /* LMIconButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMIconButton.m; sourceTree = "<group>"; };
+		0C8709D01CF6C0AC004EEF4A /* LMMoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMMoodViewController.h; sourceTree = "<group>"; };
+		0C8709D11CF6C0AC004EEF4A /* LMMoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMMoodViewController.m; sourceTree = "<group>"; };
+		0C8709D31CF6F176004EEF4A /* AllStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllStatusViewController.h; sourceTree = "<group>"; };
+		0C8709D41CF6F176004EEF4A /* AllStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllStatusViewController.m; sourceTree = "<group>"; };
 		0C8B12711CF556DF00C841A4 /* LMConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMConst.h; sourceTree = "<group>"; };
 		0C8B12721CF556DF00C841A4 /* LMConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMConst.m; sourceTree = "<group>"; };
 		0C8B12741CF55CF700C841A4 /* LMBottomMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMBottomMenu.h; sourceTree = "<group>"; };
@@ -193,6 +199,10 @@
 				0CB63E321CF4596700F94690 /* LMLoginViewController.m */,
 				0CB63E341CF4716900F94690 /* LMMainViewController.h */,
 				0CB63E351CF4716900F94690 /* LMMainViewController.m */,
+				0C8709D01CF6C0AC004EEF4A /* LMMoodViewController.h */,
+				0C8709D11CF6C0AC004EEF4A /* LMMoodViewController.m */,
+				0C8709D31CF6F176004EEF4A /* AllStatusViewController.h */,
+				0C8709D41CF6F176004EEF4A /* AllStatusViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -362,6 +372,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C8709D51CF6F176004EEF4A /* AllStatusViewController.m in Sources */,
 				0CE314491CF43D9800EC91C1 /* AppDelegate.m in Sources */,
 				0C8B12761CF55CF700C841A4 /* LMBottomMenu.m in Sources */,
 				0C58359F1CF4B0990096B850 /* UIView+AdjustFrame.m in Sources */,
@@ -370,6 +381,7 @@
 				0CE314461CF43D9800EC91C1 /* main.m in Sources */,
 				0C8B12731CF556DF00C841A4 /* LMConst.m in Sources */,
 				0C58359E1CF4B0990096B850 /* UIImage+Fit.m in Sources */,
+				0C8709D21CF6C0AC004EEF4A /* LMMoodViewController.m in Sources */,
 				0CB63E361CF4716900F94690 /* LMMainViewController.m in Sources */,
 				0CB63E331CF4596700F94690 /* LMLoginViewController.m in Sources */,
 				0C768B5C1CF5828800B8BB95 /* LMIconButton.m in Sources */,
