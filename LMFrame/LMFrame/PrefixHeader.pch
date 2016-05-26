@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  LMFrame
+//
+//  Created by geshu on 16/5/25.
+//  Copyright © 2016年 personage. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIView+AdjustFrame.h"
+#import "LMConst.h"
+
+#endif /* PrefixHeader_pch */
