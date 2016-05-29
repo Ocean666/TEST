@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C4DF94B1CF9398200432500 /* menuTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4DF94A1CF9398200432500 /* menuTable.m */; };
+		0C4DF9511CF952BF00432500 /* oneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4DF9501CF952BF00432500 /* oneViewController.m */; };
+		0C4DF9541CF9536B00432500 /* twoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4DF9531CF9536B00432500 /* twoViewController.m */; };
+		0C4DF9581CF95B3400432500 /* colorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4DF9561CF95B3400432500 /* colorViewController.m */; };
+		0C4DF9591CF95B3400432500 /* colorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C4DF9571CF95B3400432500 /* colorViewController.xib */; };
+		0C4DF95B1CF95BEE00432500 /* colorWheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C4DF95A1CF95BEE00432500 /* colorWheel.png */; };
+		0C4DF95F1CF95E2900432500 /* UIImage+GetColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4DF95E1CF95E2900432500 /* UIImage+GetColor.m */; };
+		0C4DF9621CF9750200432500 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4DF9611CF9750200432500 /* TestViewController.m */; };
 		0CE3ABEC1CF7019B002CF646 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE3ABEB1CF7019B002CF646 /* main.m */; };
 		0CE3ABEF1CF7019B002CF646 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE3ABEE1CF7019B002CF646 /* AppDelegate.m */; };
 		0CE3ABF21CF7019B002CF646 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE3ABF11CF7019B002CF646 /* ViewController.m */; };
@@ -35,6 +43,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C4DF9491CF9398200432500 /* menuTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = menuTable.h; sourceTree = "<group>"; };
+		0C4DF94A1CF9398200432500 /* menuTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = menuTable.m; sourceTree = "<group>"; };
+		0C4DF94F1CF952BF00432500 /* oneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oneViewController.h; sourceTree = "<group>"; };
+		0C4DF9501CF952BF00432500 /* oneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = oneViewController.m; sourceTree = "<group>"; };
+		0C4DF9521CF9536B00432500 /* twoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = twoViewController.h; sourceTree = "<group>"; };
+		0C4DF9531CF9536B00432500 /* twoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = twoViewController.m; sourceTree = "<group>"; };
+		0C4DF9551CF95B3400432500 /* colorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colorViewController.h; sourceTree = "<group>"; };
+		0C4DF9561CF95B3400432500 /* colorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = colorViewController.m; sourceTree = "<group>"; };
+		0C4DF9571CF95B3400432500 /* colorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = colorViewController.xib; sourceTree = "<group>"; };
+		0C4DF95A1CF95BEE00432500 /* colorWheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorWheel.png; sourceTree = "<group>"; };
+		0C4DF95D1CF95E2900432500 /* UIImage+GetColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GetColor.h"; sourceTree = "<group>"; };
+		0C4DF95E1CF95E2900432500 /* UIImage+GetColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GetColor.m"; sourceTree = "<group>"; };
+		0C4DF9601CF9750200432500 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		0C4DF9611CF9750200432500 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		0CE3ABE71CF7019B002CF646 /* PopoverController_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopoverController_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CE3ABEB1CF7019B002CF646 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CE3ABED1CF7019B002CF646 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +100,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C4DF95C1CF95E2900432500 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0C4DF95D1CF95E2900432500 /* UIImage+GetColor.h */,
+				0C4DF95E1CF95E2900432500 /* UIImage+GetColor.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		0CE3ABDE1CF7019B002CF646 = {
 			isa = PBXGroup;
 			children = (
@@ -106,10 +137,23 @@
 				0CE3ABF01CF7019B002CF646 /* ViewController.h */,
 				0CE3ABF11CF7019B002CF646 /* ViewController.m */,
 				0CE3ABF31CF7019B002CF646 /* Main.storyboard */,
+				0C4DF95A1CF95BEE00432500 /* colorWheel.png */,
 				0CE3ABF61CF7019B002CF646 /* Assets.xcassets */,
 				0CE3ABF81CF7019B002CF646 /* LaunchScreen.storyboard */,
 				0CE3ABFB1CF7019B002CF646 /* Info.plist */,
 				0CE3ABEA1CF7019B002CF646 /* Supporting Files */,
+				0C4DF9491CF9398200432500 /* menuTable.h */,
+				0C4DF94A1CF9398200432500 /* menuTable.m */,
+				0C4DF94F1CF952BF00432500 /* oneViewController.h */,
+				0C4DF9501CF952BF00432500 /* oneViewController.m */,
+				0C4DF9521CF9536B00432500 /* twoViewController.h */,
+				0C4DF9531CF9536B00432500 /* twoViewController.m */,
+				0C4DF9551CF95B3400432500 /* colorViewController.h */,
+				0C4DF9561CF95B3400432500 /* colorViewController.m */,
+				0C4DF9571CF95B3400432500 /* colorViewController.xib */,
+				0C4DF95C1CF95E2900432500 /* Category */,
+				0C4DF9601CF9750200432500 /* TestViewController.h */,
+				0C4DF9611CF9750200432500 /* TestViewController.m */,
 			);
 			path = PopoverController_test;
 			sourceTree = "<group>";
@@ -245,7 +289,9 @@
 			files = (
 				0CE3ABFA1CF7019B002CF646 /* LaunchScreen.storyboard in Resources */,
 				0CE3ABF71CF7019B002CF646 /* Assets.xcassets in Resources */,
+				0C4DF9591CF95B3400432500 /* colorViewController.xib in Resources */,
 				0CE3ABF51CF7019B002CF646 /* Main.storyboard in Resources */,
+				0C4DF95B1CF95BEE00432500 /* colorWheel.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +316,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C4DF95F1CF95E2900432500 /* UIImage+GetColor.m in Sources */,
+				0C4DF9581CF95B3400432500 /* colorViewController.m in Sources */,
 				0CE3ABF21CF7019B002CF646 /* ViewController.m in Sources */,
 				0CE3ABEF1CF7019B002CF646 /* AppDelegate.m in Sources */,
+				0C4DF9511CF952BF00432500 /* oneViewController.m in Sources */,
 				0CE3ABEC1CF7019B002CF646 /* main.m in Sources */,
+				0C4DF9621CF9750200432500 /* TestViewController.m in Sources */,
+				0C4DF94B1CF9398200432500 /* menuTable.m in Sources */,
+				0C4DF9541CF9536B00432500 /* twoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +467,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-personage.PopoverController-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -426,6 +479,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-personage.PopoverController-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -496,6 +550,7 @@
 				0CE3AC161CF7019B002CF646 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CE3AC171CF7019B002CF646 /* Build configuration list for PBXNativeTarget "PopoverController_testTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +559,7 @@
 				0CE3AC191CF7019B002CF646 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CE3AC1A1CF7019B002CF646 /* Build configuration list for PBXNativeTarget "PopoverController_testUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +568,7 @@
 				0CE3AC1C1CF7019B002CF646 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

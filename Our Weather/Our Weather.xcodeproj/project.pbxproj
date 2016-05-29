@@ -9,24 +9,24 @@
 /* Begin PBXBuildFile section */
 		0C0C003B1CEC1CC300076BE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C003A1CEC1CC300076BE4 /* main.m */; };
 		0C0C003E1CEC1CC300076BE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C003D1CEC1CC300076BE4 /* AppDelegate.m */; };
-		0C0C00411CEC1CC300076BE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C00401CEC1CC300076BE4 /* ViewController.m */; };
 		0C0C00441CEC1CC300076BE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C0C00421CEC1CC300076BE4 /* Main.storyboard */; };
 		0C0C00461CEC1CC300076BE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C0C00451CEC1CC300076BE4 /* Assets.xcassets */; };
 		0C0C00491CEC1CC300076BE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C0C00471CEC1CC300076BE4 /* LaunchScreen.storyboard */; };
 		0C0C00541CEC1CC300076BE4 /* Our_WeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C00531CEC1CC300076BE4 /* Our_WeatherTests.m */; };
 		0C0C005F1CEC1CC300076BE4 /* Our_WeatherUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C005E1CEC1CC300076BE4 /* Our_WeatherUITests.m */; };
-		0C8272831CEEBBBC00552D2C /* GSParserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8272821CEEBBBC00552D2C /* GSParserManager.m */; };
-		0C919DC31CECB1DE00F37E44 /* GSIndexDetailVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C919DC11CECB1DE00F37E44 /* GSIndexDetailVCViewController.m */; };
-		0C919DC41CECB1DE00F37E44 /* GSIndexDetailVCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C919DC21CECB1DE00F37E44 /* GSIndexDetailVCViewController.xib */; };
-		0CF2F08F1CEC51E5003CAEE9 /* GSWeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF2F08D1CEC51E5003CAEE9 /* GSWeatherViewController.m */; };
-		0CF2F0901CEC51E5003CAEE9 /* GSWeatherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CF2F08E1CEC51E5003CAEE9 /* GSWeatherViewController.xib */; };
-		0CF2F0931CEC597D003CAEE9 /* GSHTTPRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF2F0921CEC597D003CAEE9 /* GSHTTPRequestManager.m */; };
-		0CF2F0991CEC5B63003CAEE9 /* GSMainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF2F0981CEC5B63003CAEE9 /* GSMainModel.m */; };
-		0CF2F09C1CEC5BC9003CAEE9 /* GSWeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF2F09B1CEC5BC9003CAEE9 /* GSWeatherModel.m */; };
-		0CF2F0A01CEC6185003CAEE9 /* GSIndexModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF2F09F1CEC6185003CAEE9 /* GSIndexModel.m */; };
-		0CF2F0A31CEC6363003CAEE9 /* GSDateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF2F0A21CEC6363003CAEE9 /* GSDateModel.m */; };
-		0CF2F0B01CEC741C003CAEE9 /* GSDateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF2F0AE1CEC741C003CAEE9 /* GSDateTableViewCell.m */; };
-		0CF2F0B11CEC741C003CAEE9 /* GSDateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CF2F0AF1CEC741C003CAEE9 /* GSDateTableViewCell.xib */; };
+		0CEA5D401CFAA4D800EABB76 /* GSHTTPRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA5D3B1CFAA4D800EABB76 /* GSHTTPRequestManager.m */; };
+		0CEA5D411CFAA4D800EABB76 /* GSParserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA5D3D1CFAA4D800EABB76 /* GSParserManager.m */; };
+		0CEA5D421CFAA4D800EABB76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA5D3F1CFAA4D800EABB76 /* ViewController.m */; };
+		0CEA5D4C1CFAA4E500EABB76 /* GSDateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA5D451CFAA4E500EABB76 /* GSDateModel.m */; };
+		0CEA5D4D1CFAA4E500EABB76 /* GSIndexModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA5D471CFAA4E500EABB76 /* GSIndexModel.m */; };
+		0CEA5D4E1CFAA4E500EABB76 /* GSMainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA5D491CFAA4E500EABB76 /* GSMainModel.m */; };
+		0CEA5D4F1CFAA4E500EABB76 /* GSWeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA5D4B1CFAA4E500EABB76 /* GSWeatherModel.m */; };
+		0CEA5D5A1CFAA4F300EABB76 /* GSDateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA5D521CFAA4F300EABB76 /* GSDateTableViewCell.m */; };
+		0CEA5D5B1CFAA4F300EABB76 /* GSDateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CEA5D531CFAA4F300EABB76 /* GSDateTableViewCell.xib */; };
+		0CEA5D5C1CFAA4F300EABB76 /* GSIndexDetailVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA5D551CFAA4F300EABB76 /* GSIndexDetailVCViewController.m */; };
+		0CEA5D5D1CFAA4F300EABB76 /* GSIndexDetailVCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CEA5D561CFAA4F300EABB76 /* GSIndexDetailVCViewController.xib */; };
+		0CEA5D5E1CFAA4F300EABB76 /* GSWeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA5D581CFAA4F300EABB76 /* GSWeatherViewController.m */; };
+		0CEA5D5F1CFAA4F300EABB76 /* GSWeatherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CEA5D591CFAA4F300EABB76 /* GSWeatherViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,10 +49,8 @@
 /* Begin PBXFileReference section */
 		0C0C00361CEC1CC300076BE4 /* Our Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Our Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C0C003A1CEC1CC300076BE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0C0C003C1CEC1CC300076BE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0C0C003D1CEC1CC300076BE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0C0C003F1CEC1CC300076BE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0C0C00401CEC1CC300076BE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C0C003C1CEC1CC300076BE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		0C0C003D1CEC1CC300076BE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		0C0C00431CEC1CC300076BE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C0C00451CEC1CC300076BE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C0C00481CEC1CC300076BE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -63,28 +61,30 @@
 		0C0C005A1CEC1CC300076BE4 /* Our WeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Our WeatherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C0C005E1CEC1CC300076BE4 /* Our_WeatherUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Our_WeatherUITests.m; sourceTree = "<group>"; };
 		0C0C00601CEC1CC300076BE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C8272811CEEBBBC00552D2C /* GSParserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSParserManager.h; sourceTree = "<group>"; };
-		0C8272821CEEBBBC00552D2C /* GSParserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSParserManager.m; sourceTree = "<group>"; };
-		0C8272841CEEBBD400552D2C /* Publich.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Publich.h; sourceTree = "<group>"; };
-		0C919DC01CECB1DE00F37E44 /* GSIndexDetailVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSIndexDetailVCViewController.h; sourceTree = "<group>"; };
-		0C919DC11CECB1DE00F37E44 /* GSIndexDetailVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSIndexDetailVCViewController.m; sourceTree = "<group>"; };
-		0C919DC21CECB1DE00F37E44 /* GSIndexDetailVCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSIndexDetailVCViewController.xib; sourceTree = "<group>"; };
-		0CF2F08C1CEC51E5003CAEE9 /* GSWeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWeatherViewController.h; sourceTree = "<group>"; };
-		0CF2F08D1CEC51E5003CAEE9 /* GSWeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSWeatherViewController.m; sourceTree = "<group>"; };
-		0CF2F08E1CEC51E5003CAEE9 /* GSWeatherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSWeatherViewController.xib; sourceTree = "<group>"; };
-		0CF2F0911CEC597D003CAEE9 /* GSHTTPRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHTTPRequestManager.h; sourceTree = "<group>"; };
-		0CF2F0921CEC597D003CAEE9 /* GSHTTPRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHTTPRequestManager.m; sourceTree = "<group>"; };
-		0CF2F0971CEC5B63003CAEE9 /* GSMainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSMainModel.h; sourceTree = "<group>"; };
-		0CF2F0981CEC5B63003CAEE9 /* GSMainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSMainModel.m; sourceTree = "<group>"; };
-		0CF2F09A1CEC5BC9003CAEE9 /* GSWeatherModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWeatherModel.h; sourceTree = "<group>"; };
-		0CF2F09B1CEC5BC9003CAEE9 /* GSWeatherModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSWeatherModel.m; sourceTree = "<group>"; };
-		0CF2F09E1CEC6185003CAEE9 /* GSIndexModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSIndexModel.h; sourceTree = "<group>"; };
-		0CF2F09F1CEC6185003CAEE9 /* GSIndexModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSIndexModel.m; sourceTree = "<group>"; };
-		0CF2F0A11CEC6363003CAEE9 /* GSDateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSDateModel.h; sourceTree = "<group>"; };
-		0CF2F0A21CEC6363003CAEE9 /* GSDateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSDateModel.m; sourceTree = "<group>"; };
-		0CF2F0AD1CEC741C003CAEE9 /* GSDateTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSDateTableViewCell.h; sourceTree = "<group>"; };
-		0CF2F0AE1CEC741C003CAEE9 /* GSDateTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSDateTableViewCell.m; sourceTree = "<group>"; };
-		0CF2F0AF1CEC741C003CAEE9 /* GSDateTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSDateTableViewCell.xib; sourceTree = "<group>"; };
+		0C8272841CEEBBD400552D2C /* Publich.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Publich.h; path = ../Publich.h; sourceTree = "<group>"; };
+		0CEA5D3A1CFAA4D800EABB76 /* GSHTTPRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHTTPRequestManager.h; sourceTree = "<group>"; };
+		0CEA5D3B1CFAA4D800EABB76 /* GSHTTPRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSHTTPRequestManager.m; sourceTree = "<group>"; };
+		0CEA5D3C1CFAA4D800EABB76 /* GSParserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSParserManager.h; sourceTree = "<group>"; };
+		0CEA5D3D1CFAA4D800EABB76 /* GSParserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSParserManager.m; sourceTree = "<group>"; };
+		0CEA5D3E1CFAA4D800EABB76 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0CEA5D3F1CFAA4D800EABB76 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0CEA5D441CFAA4E500EABB76 /* GSDateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSDateModel.h; sourceTree = "<group>"; };
+		0CEA5D451CFAA4E500EABB76 /* GSDateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSDateModel.m; sourceTree = "<group>"; };
+		0CEA5D461CFAA4E500EABB76 /* GSIndexModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSIndexModel.h; sourceTree = "<group>"; };
+		0CEA5D471CFAA4E500EABB76 /* GSIndexModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSIndexModel.m; sourceTree = "<group>"; };
+		0CEA5D481CFAA4E500EABB76 /* GSMainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSMainModel.h; sourceTree = "<group>"; };
+		0CEA5D491CFAA4E500EABB76 /* GSMainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSMainModel.m; sourceTree = "<group>"; };
+		0CEA5D4A1CFAA4E500EABB76 /* GSWeatherModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWeatherModel.h; sourceTree = "<group>"; };
+		0CEA5D4B1CFAA4E500EABB76 /* GSWeatherModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSWeatherModel.m; sourceTree = "<group>"; };
+		0CEA5D511CFAA4F300EABB76 /* GSDateTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSDateTableViewCell.h; sourceTree = "<group>"; };
+		0CEA5D521CFAA4F300EABB76 /* GSDateTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSDateTableViewCell.m; sourceTree = "<group>"; };
+		0CEA5D531CFAA4F300EABB76 /* GSDateTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSDateTableViewCell.xib; sourceTree = "<group>"; };
+		0CEA5D541CFAA4F300EABB76 /* GSIndexDetailVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSIndexDetailVCViewController.h; sourceTree = "<group>"; };
+		0CEA5D551CFAA4F300EABB76 /* GSIndexDetailVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSIndexDetailVCViewController.m; sourceTree = "<group>"; };
+		0CEA5D561CFAA4F300EABB76 /* GSIndexDetailVCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSIndexDetailVCViewController.xib; sourceTree = "<group>"; };
+		0CEA5D571CFAA4F300EABB76 /* GSWeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWeatherViewController.h; sourceTree = "<group>"; };
+		0CEA5D581CFAA4F300EABB76 /* GSWeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSWeatherViewController.m; sourceTree = "<group>"; };
+		0CEA5D591CFAA4F300EABB76 /* GSWeatherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSWeatherViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,37 +135,14 @@
 		0C0C00381CEC1CC300076BE4 /* Our Weather */ = {
 			isa = PBXGroup;
 			children = (
-				0C0C003C1CEC1CC300076BE4 /* AppDelegate.h */,
-				0C0C003D1CEC1CC300076BE4 /* AppDelegate.m */,
-				0C0C003F1CEC1CC300076BE4 /* ViewController.h */,
-				0C0C00401CEC1CC300076BE4 /* ViewController.m */,
-				0C0C00421CEC1CC300076BE4 /* Main.storyboard */,
-				0CF2F08C1CEC51E5003CAEE9 /* GSWeatherViewController.h */,
-				0CF2F08D1CEC51E5003CAEE9 /* GSWeatherViewController.m */,
-				0CF2F08E1CEC51E5003CAEE9 /* GSWeatherViewController.xib */,
-				0CF2F0911CEC597D003CAEE9 /* GSHTTPRequestManager.h */,
-				0CF2F0921CEC597D003CAEE9 /* GSHTTPRequestManager.m */,
-				0C8272811CEEBBBC00552D2C /* GSParserManager.h */,
-				0C8272821CEEBBBC00552D2C /* GSParserManager.m */,
-				0CF2F0971CEC5B63003CAEE9 /* GSMainModel.h */,
-				0CF2F0981CEC5B63003CAEE9 /* GSMainModel.m */,
-				0CF2F09A1CEC5BC9003CAEE9 /* GSWeatherModel.h */,
-				0CF2F09B1CEC5BC9003CAEE9 /* GSWeatherModel.m */,
-				0C8272841CEEBBD400552D2C /* Publich.h */,
-				0CF2F09E1CEC6185003CAEE9 /* GSIndexModel.h */,
-				0CF2F09F1CEC6185003CAEE9 /* GSIndexModel.m */,
-				0CF2F0A11CEC6363003CAEE9 /* GSDateModel.h */,
-				0CF2F0A21CEC6363003CAEE9 /* GSDateModel.m */,
-				0CF2F0AD1CEC741C003CAEE9 /* GSDateTableViewCell.h */,
-				0CF2F0AE1CEC741C003CAEE9 /* GSDateTableViewCell.m */,
-				0CF2F0AF1CEC741C003CAEE9 /* GSDateTableViewCell.xib */,
+				0CEA5D431CFAA4E500EABB76 /* Model */,
+				0CEA5D391CFAA4D800EABB76 /* Controller */,
+				0CEA5D501CFAA4F300EABB76 /* View */,
+				0CEA5D601CFAA53300EABB76 /* Other */,
 				0C0C00471CEC1CC300076BE4 /* LaunchScreen.storyboard */,
 				0C0C00451CEC1CC300076BE4 /* Assets.xcassets */,
-				0C0C004A1CEC1CC300076BE4 /* Info.plist */,
+				0C0C00421CEC1CC300076BE4 /* Main.storyboard */,
 				0C0C00391CEC1CC300076BE4 /* Supporting Files */,
-				0C919DC01CECB1DE00F37E44 /* GSIndexDetailVCViewController.h */,
-				0C919DC11CECB1DE00F37E44 /* GSIndexDetailVCViewController.m */,
-				0C919DC21CECB1DE00F37E44 /* GSIndexDetailVCViewController.xib */,
 			);
 			path = "Our Weather";
 			sourceTree = "<group>";
@@ -174,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				0C0C003A1CEC1CC300076BE4 /* main.m */,
+				0C0C004A1CEC1CC300076BE4 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -194,6 +172,60 @@
 				0C0C00601CEC1CC300076BE4 /* Info.plist */,
 			);
 			path = "Our WeatherUITests";
+			sourceTree = "<group>";
+		};
+		0CEA5D391CFAA4D800EABB76 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0CEA5D3A1CFAA4D800EABB76 /* GSHTTPRequestManager.h */,
+				0CEA5D3B1CFAA4D800EABB76 /* GSHTTPRequestManager.m */,
+				0CEA5D3C1CFAA4D800EABB76 /* GSParserManager.h */,
+				0CEA5D3D1CFAA4D800EABB76 /* GSParserManager.m */,
+				0CEA5D3E1CFAA4D800EABB76 /* ViewController.h */,
+				0CEA5D3F1CFAA4D800EABB76 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0CEA5D431CFAA4E500EABB76 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0CEA5D441CFAA4E500EABB76 /* GSDateModel.h */,
+				0CEA5D451CFAA4E500EABB76 /* GSDateModel.m */,
+				0CEA5D461CFAA4E500EABB76 /* GSIndexModel.h */,
+				0CEA5D471CFAA4E500EABB76 /* GSIndexModel.m */,
+				0CEA5D481CFAA4E500EABB76 /* GSMainModel.h */,
+				0CEA5D491CFAA4E500EABB76 /* GSMainModel.m */,
+				0CEA5D4A1CFAA4E500EABB76 /* GSWeatherModel.h */,
+				0CEA5D4B1CFAA4E500EABB76 /* GSWeatherModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0CEA5D501CFAA4F300EABB76 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0CEA5D511CFAA4F300EABB76 /* GSDateTableViewCell.h */,
+				0CEA5D521CFAA4F300EABB76 /* GSDateTableViewCell.m */,
+				0CEA5D531CFAA4F300EABB76 /* GSDateTableViewCell.xib */,
+				0CEA5D541CFAA4F300EABB76 /* GSIndexDetailVCViewController.h */,
+				0CEA5D551CFAA4F300EABB76 /* GSIndexDetailVCViewController.m */,
+				0CEA5D561CFAA4F300EABB76 /* GSIndexDetailVCViewController.xib */,
+				0CEA5D571CFAA4F300EABB76 /* GSWeatherViewController.h */,
+				0CEA5D581CFAA4F300EABB76 /* GSWeatherViewController.m */,
+				0CEA5D591CFAA4F300EABB76 /* GSWeatherViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0CEA5D601CFAA53300EABB76 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0C0C003C1CEC1CC300076BE4 /* AppDelegate.h */,
+				0C0C003D1CEC1CC300076BE4 /* AppDelegate.m */,
+				0C8272841CEEBBD400552D2C /* Publich.h */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,12 +332,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CEA5D5D1CFAA4F300EABB76 /* GSIndexDetailVCViewController.xib in Resources */,
 				0C0C00491CEC1CC300076BE4 /* LaunchScreen.storyboard in Resources */,
-				0CF2F0901CEC51E5003CAEE9 /* GSWeatherViewController.xib in Resources */,
-				0CF2F0B11CEC741C003CAEE9 /* GSDateTableViewCell.xib in Resources */,
-				0C919DC41CECB1DE00F37E44 /* GSIndexDetailVCViewController.xib in Resources */,
 				0C0C00461CEC1CC300076BE4 /* Assets.xcassets in Resources */,
 				0C0C00441CEC1CC300076BE4 /* Main.storyboard in Resources */,
+				0CEA5D5B1CFAA4F300EABB76 /* GSDateTableViewCell.xib in Resources */,
+				0CEA5D5F1CFAA4F300EABB76 /* GSWeatherViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,18 +362,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CF2F0931CEC597D003CAEE9 /* GSHTTPRequestManager.m in Sources */,
-				0C0C00411CEC1CC300076BE4 /* ViewController.m in Sources */,
-				0CF2F08F1CEC51E5003CAEE9 /* GSWeatherViewController.m in Sources */,
-				0C919DC31CECB1DE00F37E44 /* GSIndexDetailVCViewController.m in Sources */,
-				0CF2F0A31CEC6363003CAEE9 /* GSDateModel.m in Sources */,
+				0CEA5D4E1CFAA4E500EABB76 /* GSMainModel.m in Sources */,
+				0CEA5D5C1CFAA4F300EABB76 /* GSIndexDetailVCViewController.m in Sources */,
+				0CEA5D5A1CFAA4F300EABB76 /* GSDateTableViewCell.m in Sources */,
+				0CEA5D401CFAA4D800EABB76 /* GSHTTPRequestManager.m in Sources */,
+				0CEA5D4D1CFAA4E500EABB76 /* GSIndexModel.m in Sources */,
+				0CEA5D4C1CFAA4E500EABB76 /* GSDateModel.m in Sources */,
 				0C0C003E1CEC1CC300076BE4 /* AppDelegate.m in Sources */,
+				0CEA5D411CFAA4D800EABB76 /* GSParserManager.m in Sources */,
+				0CEA5D4F1CFAA4E500EABB76 /* GSWeatherModel.m in Sources */,
+				0CEA5D5E1CFAA4F300EABB76 /* GSWeatherViewController.m in Sources */,
 				0C0C003B1CEC1CC300076BE4 /* main.m in Sources */,
-				0CF2F09C1CEC5BC9003CAEE9 /* GSWeatherModel.m in Sources */,
-				0CF2F0B01CEC741C003CAEE9 /* GSDateTableViewCell.m in Sources */,
-				0C8272831CEEBBBC00552D2C /* GSParserManager.m in Sources */,
-				0CF2F0A01CEC6185003CAEE9 /* GSIndexModel.m in Sources */,
-				0CF2F0991CEC5B63003CAEE9 /* GSMainModel.m in Sources */,
+				0CEA5D421CFAA4D800EABB76 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
